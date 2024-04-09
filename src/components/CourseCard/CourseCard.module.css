@@ -1,0 +1,44 @@
+.card_container {
+    position: relative;
+    display: flex;
+    border: 1px solid rgb(150, 150, 150);
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    min-width: 710px;
+}
+
+.footer_card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.course_photo {
+    width: 250px;
+    height: 149px;
+    margin-right: 10px;
+}
+
+.settings_item {
+    width: 20px;
+}
+
+.settings_item:hover {
+    cursor: pointer;
+}
+
+.modal_settings {
+    position: absolute;
+    z-index: 100;
+    top: 95%;
+    left: 40%;
+    transform: translateX(-50%);
+    background-color: white;
+    border: 1px solid rgb(150, 150, 150);
+    border-radius: 8px;
+    padding: 10px;
+    transition: all 0.2s;
+    display: flex;
+    flex-direction: column;
+}

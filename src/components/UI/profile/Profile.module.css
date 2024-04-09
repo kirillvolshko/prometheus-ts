@@ -1,0 +1,60 @@
+.profile_container {
+    display: flex;
+    align-items: center;
+    padding: 2px;
+    margin-left: 40px;
+    margin-right: 40px;
+    background-color: #f58932;
+    border-radius: 8px;
+}
+
+.icon {
+    border-radius: 50%;
+    height: 50px;
+}
+
+.nickname {
+    color: white;
+    font-weight: 600;
+    font-size: 15pt;
+    margin: 0;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.nickname:hover {
+    cursor: pointer;
+}
+
+.profile_button {
+    background-color: #11ffee00;
+    border: none;
+    color: white;
+    margin-right: 10px;
+    padding: 0;
+}
+
+.profile_button:hover {
+    cursor: pointer;
+}
+
+.modal_profile {
+    position: absolute;
+    z-index: 102;
+    top: 95%;
+    left: 100%;
+    transform: translateX(-50%);
+    background-color: white;
+    border: 1px solid rgb(150, 150, 150);
+    padding: 10px;
+    transition: all 0.2s;
+    display: flex;
+    flex-direction: column;
+    min-width: 200px;
+}
+
+.modal_profile p {
+    font-size: 15pt;
+    cursor: pointer;
+
+}

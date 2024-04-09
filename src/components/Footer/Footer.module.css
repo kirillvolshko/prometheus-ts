@@ -1,0 +1,67 @@
+.main_container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 600px;
+    margin-left: clamp(20px, calc(50% - 230px), 460px);
+}
+
+.container_items {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: min(150px, clamp(150px, 5vw, 20px));
+}
+
+.container_items p {
+    font-size: 14pt;
+}
+
+.container_items p:hover {
+    cursor: pointer;
+    color: #f58932;
+}
+
+.store_footer {
+    width: 134px;
+}
+
+.under_container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: clamp(20px, calc(50% - 200px), 200px);
+    margin-top: 50px;
+    margin-left: clamp(20px, calc(50% - 230px), 400px);
+}
+
+.foto_container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+    max-width: 350px;
+}
+
+.under_container div:first-child {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.under_container p {
+    font-size: 10pt;
+    margin-left: 20px;
+}
+
+.under_container p:hover {
+    cursor: pointer;
+    color: #f58932;
+}
+
+.card_logo {
+    width: 40px;
+    margin: 0;
+}
+
+.social_media {
+    width: 30px;
+    margin-left: 5px;
+}

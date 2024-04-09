@@ -1,0 +1,41 @@
+.banner_container {
+    display: flex;
+    justify-content: center;
+    background-color: #FFF4F4;
+    height: 250px;
+}
+
+.text_container {
+    z-index: 101;
+    margin-left: -400px;
+}
+
+.add_title {
+    font-weight: 800;
+    font-size: 24pt;
+}
+
+.add_description {
+    font-size: 16pt;
+}
+
+.add_banner {
+    position: absolute;
+    width: 350px;
+    height: 300px;
+    top: 50px
+}
+
+.banner_item {
+    position: absolute;
+    right: 550px;
+    height: 250px;
+}
+
+.banner_item_two {
+    right: 0px;
+    position: absolute;
+    background-color: #ffe9e9;
+    height: 250px;
+    width: 600px;
+}

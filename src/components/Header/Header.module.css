@@ -1,0 +1,33 @@
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+
+}
+
+.menu_items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    width: 250px;
+    height: 50px;
+
+}
+
+.menu_item_help {
+    color: #244B83;
+    font-size: 15pt;
+    font-weight: 600;
+    transition: all 0.2s;
+}
+
+.menu_item_help:hover {
+    cursor: pointer;
+    color: #f58932
+}
